@@ -29,7 +29,7 @@ const CardContext: FC<PropsCard> = ({ item }) => {
     }
 
     return ( <>
-        <div className="w-80 p-3 bg-zinc-100 rounded-xl m-5">
+        <div className="w-80 p-3 bg-zinc-100 rounded-xl mx-auto mt-5">
             <div className="w-72 h-80 rounded-xl">
                 <img src={item.img} alt={item.text} className="w-full h-full object-cover rounded-lg"/>
             </div>
